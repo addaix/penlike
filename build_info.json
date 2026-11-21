@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
-  "built_at": "2026-11-10T07:59:49Z",
+  "built_at": "2026-11-21T15:49:32Z",
   "package": {
     "name": "penlike",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "display_name": "penlike",
     "source": "pyproject.toml"
   },
   "git": {
     "available": true,
-    "commit": "76b559e1b4661dd051f0066c1ed9856c1d8ebb7c",
-    "short_commit": "76b559e",
+    "commit": "00d0aa98dda66763de3858c82ebb55e874df1b40",
+    "short_commit": "00d0aa9",
     "branch": "main",
     "tags": [],
     "dirty": false,
-    "remote_url": "https://github.com/thorwhalen/penlike",
-    "commit_url": "https://github.com/thorwhalen/penlike/commit/76b559e1b4661dd051f0066c1ed9856c1d8ebb7c",
+    "remote_url": "https://github.com/addaix/penlike",
+    "commit_url": "https://github.com/addaix/penlike/commit/00d0aa98dda66763de3858c82ebb55e874df1b40",
     "error": null
   },
   "ci": {
     "provider": "github",
-    "repository": "thorwhalen/penlike",
-    "sha": "76b559e1b4661dd051f0066c1ed9856c1d8ebb7c",
+    "repository": "addaix/penlike",
+    "sha": "00d0aa98dda66763de3858c82ebb55e874df1b40",
     "sha_in_history": true,
     "ref": "refs/heads/main",
     "ref_name": "main",
-    "run_id": "42779018121",
-    "run_url": "https://github.com/thorwhalen/penlike/actions/runs/42779018121",
+    "run_id": "44921084813",
+    "run_url": "https://github.com/addaix/penlike/actions/runs/44921084813",
     "server_url": "https://github.com"
   },
   "tools": {
@@ -60,11 +60,11 @@
   },
   "pypi": {
     "checked": true,
-    "latest": "0.0.6",
+    "latest": "0.0.7",
     "relation": "same",
     "error": null
   },
-  "reproduce": "git clone https://github.com/thorwhalen/penlike && cd penlike\ngit checkout 76b559e1b4661dd051f0066c1ed9856c1d8ebb7c\npip install \"epythet==0.2.22\"\nepythet quickstart . --ignore tests/ scrap/ examples/",
+  "reproduce": "git clone https://github.com/addaix/penlike && cd penlike\ngit checkout 00d0aa98dda66763de3858c82ebb55e874df1b40\npip install \"epythet==0.2.22\"\nepythet quickstart . --ignore tests/ scrap/ examples/",
   "warnings": [],
   "alignment": {
     "aligned": true,

@@ -1,4 +1,4 @@
-> built 2026-11-10 07:59 UTC from 76b559e (main) · penlike 0.0.6. Details: build_info.json
+> built 2026-11-21 15:49 UTC from 00d0aa9 (main) · penlike 0.0.7. Details: build_info.json
 
 # index.html.md
 
@@ -1790,29 +1790,29 @@ False
 
 # About this build
 
-This documentation was built on **2026-11-10 07:59 UTC** from commit <a href="https://github.com/thorwhalen/penlike/commit/76b559e1b4661dd051f0066c1ed9856c1d8ebb7c"><code>76b559e</code></a> on branch <code>main</code>, for **penlike 0.0.6** (from <code>pyproject.toml</code>).
+This documentation was built on **2026-11-21 15:49 UTC** from commit <a href="https://github.com/addaix/penlike/commit/00d0aa98dda66763de3858c82ebb55e874df1b40"><code>00d0aa9</code></a> on branch <code>main</code>, for **penlike 0.0.7** (from <code>pyproject.toml</code>).
 
 #### NOTE
 Nothing suggests a mismatch: the tree was clean at the commit above, and the documented version is the one on PyPI.
 
 ## Source
 
-|                     |                                                                                                                                                           |
-|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Commit              | <a href="https://github.com/thorwhalen/penlike/commit/76b559e1b4661dd051f0066c1ed9856c1d8ebb7c"><code>76b559e1b4661dd051f0066c1ed9856c1d8ebb7c</code></a> |
-| Branch              | <code>main</code>                                                                                                                                         |
-| Tags at this commit | none                                                                                                                                                      |
-| Working tree        | clean                                                                                                                                                     |
-| Remote              | <code>https://github.com/thorwhalen/penlike</code>                                                                                                        |
+|                     |                                                                                                                                                       |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Commit              | <a href="https://github.com/addaix/penlike/commit/00d0aa98dda66763de3858c82ebb55e874df1b40"><code>00d0aa98dda66763de3858c82ebb55e874df1b40</code></a> |
+| Branch              | <code>main</code>                                                                                                                                     |
+| Tags at this commit | none                                                                                                                                                  |
+| Working tree        | clean                                                                                                                                                 |
+| Remote              | <code>https://github.com/addaix/penlike</code>                                                                                                        |
 
 ## Continuous integration
 
 |              |                                                                                            |
 |--------------|--------------------------------------------------------------------------------------------|
-| Repository   | <code>thorwhalen/penlike</code>                                                            |
-| Run          | <a href="https://github.com/thorwhalen/penlike/actions/runs/42779018121">42779018121</a>   |
+| Repository   | <code>addaix/penlike</code>                                                                |
+| Run          | <a href="https://github.com/addaix/penlike/actions/runs/44921084813">44921084813</a>       |
 | Ref          | <code>refs/heads/main</code>                                                               |
-| Event commit | <code>76b559e1b4661dd051f0066c1ed9856c1d8ebb7c</code> (in the history of the built commit) |
+| Event commit | <code>00d0aa98dda66763de3858c82ebb55e874df1b40</code> (in the history of the built commit) |
 
 ## Tools
 
@@ -1837,13 +1837,13 @@ Nothing suggests a mismatch: the tree was clean at the commit above, and the doc
 
 ## Package on PyPI
 
-Latest release: <a href="https://pypi.org/project/penlike/0.0.6/">0.0.6</a>, the same as the documented version.
+Latest release: <a href="https://pypi.org/project/penlike/0.0.7/">0.0.7</a>, the same as the documented version.
 
 ## Reproduce
 
 ```bash
-git clone https://github.com/thorwhalen/penlike && cd penlike
-git checkout 76b559e1b4661dd051f0066c1ed9856c1d8ebb7c
+git clone https://github.com/addaix/penlike && cd penlike
+git checkout 00d0aa98dda66763de3858c82ebb55e874df1b40
 pip install "epythet==0.2.22"
 epythet quickstart . --ignore tests/ scrap/ examples/
 ```
@@ -1870,30 +1870,30 @@ Skills are folders holding a `SKILL.md` (the [Agent Skills](https://agentskills.
 Write or rewrite text so that it reads as a given author, group or corpus writes, using a penlike style model. Use when asked to “write like me”, “write this in my voice”, “make this sound like me”, “rewrite this the way I write”, “write like <author>”, “write this in <style> style”, “in my technical-writing register”, “translate this into my style”, or when a draft should match a house style or a corpus. Picks the right register for the situation (who it is for, which channel, reply or not), gets the measured profile, notes and examples with penlike brief, drafts, then checks the draft with penlike check and revises. The default model is the user’s own. For building or changing a model use penlike-model; for choosing and reading sources use penlike-source.
 
 ```bash
-gh skill install thorwhalen/penlike penlike --agent claude-code
+gh skill install addaix/penlike penlike --agent claude-code
 ```
 
-Source: [`penlike/data/skills/penlike`](https://github.com/thorwhalen/penlike/tree/HEAD/penlike/data/skills/penlike) (bundled with the pip package).
+Source: [`penlike/data/skills/penlike`](https://github.com/addaix/penlike/tree/HEAD/penlike/data/skills/penlike) (bundled with the pip package).
 
 ### `penlike-model`
 
 Build, inspect, change or delete a penlike style model of how an author, a group or a corpus writes. Use when asked to “build a model of how I write”, “make a write-like-me model”, “model this author’s style”, “model our house style”, “learn my writing style from my emails”, “what registers do I have”, “name this register”, “split or merge these styles”, “add notes on how I write”, “update my style model with new texts”, “show my style model”, or “delete the model”. Covers making the model, building registers and profiles, finding and naming new registers, recording sourced notes with parallel penlike-reader agents, and how a person, a group and a corpus differ. Use penlike-source to choose and read the texts, and penlike to write with the finished model.
 
 ```bash
-gh skill install thorwhalen/penlike penlike-model --agent claude-code
+gh skill install addaix/penlike penlike-model --agent claude-code
 ```
 
-Source: [`penlike/data/skills/penlike-model`](https://github.com/thorwhalen/penlike/tree/HEAD/penlike/data/skills/penlike-model) (bundled with the pip package).
+Source: [`penlike/data/skills/penlike-model`](https://github.com/addaix/penlike/tree/HEAD/penlike/data/skills/penlike-model) (bundled with the pip package).
 
 ### `penlike-source`
 
 Choose, read and filter the texts a penlike style model is built from, including writing a custom sourcer for an archive penlike cannot read yet. Use when asked “where should my style model get its texts”, “use my sent emails”, “use my GitHub discussions”, “use my old blog posts”, “model this essayist from their website”, “read these URLs”, “only texts from before 2023”, “read this mailbox export”, “import this Slack or chat export”, “make a sourcer for X”, “filter out AI-written text from my sources”, “screen my corpus for AI text”, “how much would it cost to screen”, or when penlike gather needs a source. Covers the built-in sourcers (files, web, jsonl, mbox, correspond, github, claude-sessions), public-basis corpora of published authors, the date cutoff that keeps machine-written text out, the custom sourcer contract, and optional screening with its cost tiers stated before anything runs.
 
 ```bash
-gh skill install thorwhalen/penlike penlike-source --agent claude-code
+gh skill install addaix/penlike penlike-source --agent claude-code
 ```
 
-Source: [`penlike/data/skills/penlike-source`](https://github.com/thorwhalen/penlike/tree/HEAD/penlike/data/skills/penlike-source) (bundled with the pip package).
+Source: [`penlike/data/skills/penlike-source`](https://github.com/addaix/penlike/tree/HEAD/penlike/data/skills/penlike-source) (bundled with the pip package).
 
 The bundled skills are also on disk after `pip install penlike`, under the package’s `data/skills/` directory; link them into an agent without network access with `skill link-skills <that directory>`.
 
@@ -1905,22 +1905,22 @@ Subagents are Markdown files with a frontmatter (`name`, `description`, `tools`)
 
 Parallel reading worker for the penlike-model skill. Reads one batch file of an author’s own texts and returns evidence rows (dimension, observation, short quote, doc id, date) about how the author writes. Returns rows only, never a summary, never personality labels or sensitive categories, and nothing about the people the author wrote to. Spawn several at once, one batch file each, all with the same instruction.
 
-Source: [`penlike/data/agents/penlike-reader.md`](https://github.com/thorwhalen/penlike/tree/HEAD/penlike/data/agents/penlike-reader.md); tools: `Read, Grep, Glob`.
+Source: [`penlike/data/agents/penlike-reader.md`](https://github.com/addaix/penlike/tree/HEAD/penlike/data/agents/penlike-reader.md); tools: `Read, Grep, Glob`.
 
 ## Instruction files
 
 Files agents read before working in this repository.
 
-- [`.claude/CLAUDE.md`](https://github.com/thorwhalen/penlike/tree/HEAD/.claude/CLAUDE.md): read by Claude Code
+- [`.claude/CLAUDE.md`](https://github.com/addaix/penlike/tree/HEAD/.claude/CLAUDE.md): read by Claude Code
 
 ## Machine-readable documentation
 
 This site publishes the same documentation in forms that fit an agent’s context window:
 
-- [`llms.txt`](https://thorwhalen.github.io/penlike/llms.txt): an index of every page with a one-line description ([llms.txt](https://llmstxt.org) format)
-- [`penlike.md`](https://thorwhalen.github.io/penlike/penlike.md): the whole documentation as one Markdown file
+- [`llms.txt`](https://addaix.github.io/penlike/llms.txt): an index of every page with a one-line description ([llms.txt](https://llmstxt.org) format)
+- [`penlike.md`](https://addaix.github.io/penlike/penlike.md): the whole documentation as one Markdown file
 - `<page>.html.md`: a rendered Markdown twin of every page, advertised from each page’s `<head>` with `<link rel="alternate" type="text/markdown">`
-- [`objects.inv`](https://thorwhalen.github.io/penlike/objects.inv): the Sphinx inventory: a symbol-to-URL index (`sphobjinv convert plain objects.inv -`)
+- [`objects.inv`](https://addaix.github.io/penlike/objects.inv): the Sphinx inventory: a symbol-to-URL index (`sphobjinv convert plain objects.inv -`)
 
 
 # api.html.md

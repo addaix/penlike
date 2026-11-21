@@ -40,7 +40,7 @@
   <input type="text" name="q" placeholder="Search" />
   <kbd>/</kbd>
 </form><div class="sy-head-socials">
-  <a href="https://github.com/thorwhalen/penlike" aria-label="GitHub">
+  <a href="https://github.com/addaix/penlike" aria-label="GitHub">
     <iconify-icon icon="simple-icons:github"></iconify-icon>
   </a></div></div>
     </div>
@@ -147,26 +147,26 @@ machine-readable copies of this documentation.</p>
 <section id="penlike">
 <h3><code class="docutils literal notranslate"><span class="pre">penlike</span></code><a class="headerlink" href="#penlike" title="Link to this heading">#</a></h3>
 <p>Write or rewrite text so that it reads as a given author, group or corpus writes, using a penlike style model. Use when asked to “write like me”, “write this in my voice”, “make this sound like me”, “rewrite this the way I write”, “write like <author>”, “write this in <style> style”, “in my technical-writing register”, “translate this into my style”, or when a draft should match a house style or a corpus. Picks the right register for the situation (who it is for, which channel, reply or not), gets the measured profile, notes and examples with penlike brief, drafts, then checks the draft with penlike check and revises. The default model is the user’s own. For building or changing a model use penlike-model; for choosing and reading sources use penlike-source.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span data-line="1">gh<span class="w"> </span>skill<span class="w"> </span>install<span class="w"> </span>thorwhalen/penlike<span class="w"> </span>penlike<span class="w"> </span>--agent<span class="w"> </span>claude-code
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span data-line="1">gh<span class="w"> </span>skill<span class="w"> </span>install<span class="w"> </span>addaix/penlike<span class="w"> </span>penlike<span class="w"> </span>--agent<span class="w"> </span>claude-code
 </span></pre></div>
 </div>
-<p>Source: <a class="reference external" href="https://github.com/thorwhalen/penlike/tree/HEAD/penlike/data/skills/penlike"><code class="docutils literal notranslate"><span class="pre">penlike/data/skills/penlike</span></code></a> (bundled with the pip package).</p>
+<p>Source: <a class="reference external" href="https://github.com/addaix/penlike/tree/HEAD/penlike/data/skills/penlike"><code class="docutils literal notranslate"><span class="pre">penlike/data/skills/penlike</span></code></a> (bundled with the pip package).</p>
 </section>
 <section id="penlike-model">
 <h3><code class="docutils literal notranslate"><span class="pre">penlike-model</span></code><a class="headerlink" href="#penlike-model" title="Link to this heading">#</a></h3>
 <p>Build, inspect, change or delete a penlike style model of how an author, a group or a corpus writes. Use when asked to “build a model of how I write”, “make a write-like-me model”, “model this author’s style”, “model our house style”, “learn my writing style from my emails”, “what registers do I have”, “name this register”, “split or merge these styles”, “add notes on how I write”, “update my style model with new texts”, “show my style model”, or “delete the model”. Covers making the model, building registers and profiles, finding and naming new registers, recording sourced notes with parallel penlike-reader agents, and how a person, a group and a corpus differ. Use penlike-source to choose and read the texts, and penlike to write with the finished model.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span data-line="1">gh<span class="w"> </span>skill<span class="w"> </span>install<span class="w"> </span>thorwhalen/penlike<span class="w"> </span>penlike-model<span class="w"> </span>--agent<span class="w"> </span>claude-code
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span data-line="1">gh<span class="w"> </span>skill<span class="w"> </span>install<span class="w"> </span>addaix/penlike<span class="w"> </span>penlike-model<span class="w"> </span>--agent<span class="w"> </span>claude-code
 </span></pre></div>
 </div>
-<p>Source: <a class="reference external" href="https://github.com/thorwhalen/penlike/tree/HEAD/penlike/data/skills/penlike-model"><code class="docutils literal notranslate"><span class="pre">penlike/data/skills/penlike-model</span></code></a> (bundled with the pip package).</p>
+<p>Source: <a class="reference external" href="https://github.com/addaix/penlike/tree/HEAD/penlike/data/skills/penlike-model"><code class="docutils literal notranslate"><span class="pre">penlike/data/skills/penlike-model</span></code></a> (bundled with the pip package).</p>
 </section>
 <section id="penlike-source">
 <h3><code class="docutils literal notranslate"><span class="pre">penlike-source</span></code><a class="headerlink" href="#penlike-source" title="Link to this heading">#</a></h3>
 <p>Choose, read and filter the texts a penlike style model is built from, including writing a custom sourcer for an archive penlike cannot read yet. Use when asked “where should my style model get its texts”, “use my sent emails”, “use my GitHub discussions”, “use my old blog posts”, “model this essayist from their website”, “read these URLs”, “only texts from before 2023”, “read this mailbox export”, “import this Slack or chat export”, “make a sourcer for X”, “filter out AI-written text from my sources”, “screen my corpus for AI text”, “how much would it cost to screen”, or when penlike gather needs a source. Covers the built-in sourcers (files, web, jsonl, mbox, correspond, github, claude-sessions), public-basis corpora of published authors, the date cutoff that keeps machine-written text out, the custom sourcer contract, and optional screening with its cost tiers stated before anything runs.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span data-line="1">gh<span class="w"> </span>skill<span class="w"> </span>install<span class="w"> </span>thorwhalen/penlike<span class="w"> </span>penlike-source<span class="w"> </span>--agent<span class="w"> </span>claude-code
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span data-line="1">gh<span class="w"> </span>skill<span class="w"> </span>install<span class="w"> </span>addaix/penlike<span class="w"> </span>penlike-source<span class="w"> </span>--agent<span class="w"> </span>claude-code
 </span></pre></div>
 </div>
-<p>Source: <a class="reference external" href="https://github.com/thorwhalen/penlike/tree/HEAD/penlike/data/skills/penlike-source"><code class="docutils literal notranslate"><span class="pre">penlike/data/skills/penlike-source</span></code></a> (bundled with the pip package).</p>
+<p>Source: <a class="reference external" href="https://github.com/addaix/penlike/tree/HEAD/penlike/data/skills/penlike-source"><code class="docutils literal notranslate"><span class="pre">penlike/data/skills/penlike-source</span></code></a> (bundled with the pip package).</p>
 <p>The bundled skills are also on disk after <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">penlike</span></code>, under the package’s <code class="docutils literal notranslate"><span class="pre">data/skills/</span></code> directory; link them into an agent without network access with <code class="docutils literal notranslate"><span class="pre">skill</span> <span class="pre">link-skills</span> <span class="pre">&lt;that</span> <span class="pre">directory&gt;</span></code>.</p>
 </section>
 </section>
@@ -176,24 +176,24 @@ machine-readable copies of this documentation.</p>
 <section id="penlike-reader">
 <h3><code class="docutils literal notranslate"><span class="pre">penlike-reader</span></code><a class="headerlink" href="#penlike-reader" title="Link to this heading">#</a></h3>
 <p>Parallel reading worker for the penlike-model skill. Reads one batch file of an author’s own texts and returns evidence rows (dimension, observation, short quote, doc id, date) about how the author writes. Returns rows only, never a summary, never personality labels or sensitive categories, and nothing about the people the author wrote to. Spawn several at once, one batch file each, all with the same instruction.</p>
-<p>Source: <a class="reference external" href="https://github.com/thorwhalen/penlike/tree/HEAD/penlike/data/agents/penlike-reader.md"><code class="docutils literal notranslate"><span class="pre">penlike/data/agents/penlike-reader.md</span></code></a>; tools: <code class="docutils literal notranslate"><span class="pre">Read,</span> <span class="pre">Grep,</span> <span class="pre">Glob</span></code>.</p>
+<p>Source: <a class="reference external" href="https://github.com/addaix/penlike/tree/HEAD/penlike/data/agents/penlike-reader.md"><code class="docutils literal notranslate"><span class="pre">penlike/data/agents/penlike-reader.md</span></code></a>; tools: <code class="docutils literal notranslate"><span class="pre">Read,</span> <span class="pre">Grep,</span> <span class="pre">Glob</span></code>.</p>
 </section>
 </section>
 <section id="instruction-files">
 <h2>Instruction files<a class="headerlink" href="#instruction-files" title="Link to this heading">#</a></h2>
 <p>Files agents read before working in this repository.</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/thorwhalen/penlike/tree/HEAD/.claude/CLAUDE.md"><code class="docutils literal notranslate"><span class="pre">.claude/CLAUDE.md</span></code></a>: read by Claude Code</p></li>
+<li><p><a class="reference external" href="https://github.com/addaix/penlike/tree/HEAD/.claude/CLAUDE.md"><code class="docutils literal notranslate"><span class="pre">.claude/CLAUDE.md</span></code></a>: read by Claude Code</p></li>
 </ul>
 </section>
 <section id="machine-readable-documentation">
 <h2>Machine-readable documentation<a class="headerlink" href="#machine-readable-documentation" title="Link to this heading">#</a></h2>
 <p>This site publishes the same documentation in forms that fit an agent’s context window:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://thorwhalen.github.io/penlike/llms.txt"><code class="docutils literal notranslate"><span class="pre">llms.txt</span></code></a>: an index of every page with a one-line description (<a class="reference external" href="https://llmstxt.org">llms.txt</a> format)</p></li>
-<li><p><a class="reference external" href="https://thorwhalen.github.io/penlike/penlike.md"><code class="docutils literal notranslate"><span class="pre">penlike.md</span></code></a>: the whole documentation as one Markdown file</p></li>
+<li><p><a class="reference external" href="https://addaix.github.io/penlike/llms.txt"><code class="docutils literal notranslate"><span class="pre">llms.txt</span></code></a>: an index of every page with a one-line description (<a class="reference external" href="https://llmstxt.org">llms.txt</a> format)</p></li>
+<li><p><a class="reference external" href="https://addaix.github.io/penlike/penlike.md"><code class="docutils literal notranslate"><span class="pre">penlike.md</span></code></a>: the whole documentation as one Markdown file</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">&lt;page&gt;.html.md</span></code>: a rendered Markdown twin of every page, advertised from each page’s <code class="docutils literal notranslate"><span class="pre">&lt;head&gt;</span></code> with <code class="docutils literal notranslate"><span class="pre">&lt;link</span> <span class="pre">rel=&quot;alternate&quot;</span> <span class="pre">type=&quot;text/markdown&quot;&gt;</span></code></p></li>
-<li><p><a class="reference external" href="https://thorwhalen.github.io/penlike/objects.inv"><code class="docutils literal notranslate"><span class="pre">objects.inv</span></code></a>: the Sphinx inventory: a symbol-to-URL index (<code class="docutils literal notranslate"><span class="pre">sphobjinv</span> <span class="pre">convert</span> <span class="pre">plain</span> <span class="pre">objects.inv</span> <span class="pre">-</span></code>)</p></li>
+<li><p><a class="reference external" href="https://addaix.github.io/penlike/objects.inv"><code class="docutils literal notranslate"><span class="pre">objects.inv</span></code></a>: the Sphinx inventory: a symbol-to-URL index (<code class="docutils literal notranslate"><span class="pre">sphobjinv</span> <span class="pre">convert</span> <span class="pre">plain</span> <span class="pre">objects.inv</span> <span class="pre">-</span></code>)</p></li>
 </ul>
 </section>
 </section>
@@ -224,13 +224,13 @@ machine-readable copies of this documentation.</p>
   </p>
 </div>
       <div class="sy-foot-socials">
-  <a href="https://github.com/thorwhalen/penlike" aria-label="GitHub">
+  <a href="https://github.com/addaix/penlike" aria-label="GitHub">
     <iconify-icon icon="simple-icons:github"></iconify-icon>
   </a></div>
     </div>
   </div>
 </footer>
-      <script src="_static/documentation_options.js?v=1fd71caa"></script>
+      <script src="_static/documentation_options.js?v=bbaf98b3"></script>
       <script src="_static/doctools.js?v=fd6eb6e6"></script>
       <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
       <script src="_static/clipboard.min.js?v=a7894cd8"></script>

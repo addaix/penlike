@@ -2,29 +2,29 @@
 
 # About this build
 
-This documentation was built on **2026-11-10 07:59 UTC** from commit <a href="https://github.com/thorwhalen/penlike/commit/76b559e1b4661dd051f0066c1ed9856c1d8ebb7c"><code>76b559e</code></a> on branch <code>main</code>, for **penlike 0.0.6** (from <code>pyproject.toml</code>).
+This documentation was built on **2026-11-21 15:49 UTC** from commit <a href="https://github.com/addaix/penlike/commit/00d0aa98dda66763de3858c82ebb55e874df1b40"><code>00d0aa9</code></a> on branch <code>main</code>, for **penlike 0.0.7** (from <code>pyproject.toml</code>).
 
 #### NOTE
 Nothing suggests a mismatch: the tree was clean at the commit above, and the documented version is the one on PyPI.
 
 ## Source
 
-|                     |                                                                                                                                                           |
-|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Commit              | <a href="https://github.com/thorwhalen/penlike/commit/76b559e1b4661dd051f0066c1ed9856c1d8ebb7c"><code>76b559e1b4661dd051f0066c1ed9856c1d8ebb7c</code></a> |
-| Branch              | <code>main</code>                                                                                                                                         |
-| Tags at this commit | none                                                                                                                                                      |
-| Working tree        | clean                                                                                                                                                     |
-| Remote              | <code>https://github.com/thorwhalen/penlike</code>                                                                                                        |
+|                     |                                                                                                                                                       |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Commit              | <a href="https://github.com/addaix/penlike/commit/00d0aa98dda66763de3858c82ebb55e874df1b40"><code>00d0aa98dda66763de3858c82ebb55e874df1b40</code></a> |
+| Branch              | <code>main</code>                                                                                                                                     |
+| Tags at this commit | none                                                                                                                                                  |
+| Working tree        | clean                                                                                                                                                 |
+| Remote              | <code>https://github.com/addaix/penlike</code>                                                                                                        |
 
 ## Continuous integration
 
 |              |                                                                                            |
 |--------------|--------------------------------------------------------------------------------------------|
-| Repository   | <code>thorwhalen/penlike</code>                                                            |
-| Run          | <a href="https://github.com/thorwhalen/penlike/actions/runs/42779018121">42779018121</a>   |
+| Repository   | <code>addaix/penlike</code>                                                                |
+| Run          | <a href="https://github.com/addaix/penlike/actions/runs/44921084813">44921084813</a>       |
 | Ref          | <code>refs/heads/main</code>                                                               |
-| Event commit | <code>76b559e1b4661dd051f0066c1ed9856c1d8ebb7c</code> (in the history of the built commit) |
+| Event commit | <code>00d0aa98dda66763de3858c82ebb55e874df1b40</code> (in the history of the built commit) |
 
 ## Tools
 
@@ -49,13 +49,13 @@ Nothing suggests a mismatch: the tree was clean at the commit above, and the doc
 
 ## Package on PyPI
 
-Latest release: <a href="https://pypi.org/project/penlike/0.0.6/">0.0.6</a>, the same as the documented version.
+Latest release: <a href="https://pypi.org/project/penlike/0.0.7/">0.0.7</a>, the same as the documented version.
 
 ## Reproduce
 
 ```bash
-git clone https://github.com/thorwhalen/penlike && cd penlike
-git checkout 76b559e1b4661dd051f0066c1ed9856c1d8ebb7c
+git clone https://github.com/addaix/penlike && cd penlike
+git checkout 00d0aa98dda66763de3858c82ebb55e874df1b40
 pip install "epythet==0.2.22"
 epythet quickstart . --ignore tests/ scrap/ examples/
 ```
