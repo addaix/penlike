@@ -42,9 +42,9 @@ penlike-mcp = "penlike.mcp:main"
 text = "MIT"
 
 [project.urls]
-Homepage = "https://github.com/thorwhalen/penlike"
-Repository = "https://github.com/thorwhalen/penlike"
-Documentation = "https://thorwhalen.github.io/penlike"
+Homepage = "https://github.com/addaix/penlike"
+Repository = "https://github.com/addaix/penlike"
+Documentation = "https://addaix.github.io/penlike"
 
 [project.optional-dependencies]
 dev = [
