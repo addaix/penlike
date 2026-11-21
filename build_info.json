@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "built_at": "2026-11-21T15:49:32Z",
+  "built_at": "2026-11-21T19:29:22Z",
   "package": {
     "name": "penlike",
     "version": "0.0.7",
@@ -9,28 +9,28 @@
   },
   "git": {
     "available": true,
-    "commit": "00d0aa98dda66763de3858c82ebb55e874df1b40",
-    "short_commit": "00d0aa9",
+    "commit": "398407152cb73df98faabfdc0b461fd00bee94af",
+    "short_commit": "3984071",
     "branch": "main",
     "tags": [],
     "dirty": false,
     "remote_url": "https://github.com/addaix/penlike",
-    "commit_url": "https://github.com/addaix/penlike/commit/00d0aa98dda66763de3858c82ebb55e874df1b40",
+    "commit_url": "https://github.com/addaix/penlike/commit/398407152cb73df98faabfdc0b461fd00bee94af",
     "error": null
   },
   "ci": {
     "provider": "github",
     "repository": "addaix/penlike",
-    "sha": "00d0aa98dda66763de3858c82ebb55e874df1b40",
+    "sha": "398407152cb73df98faabfdc0b461fd00bee94af",
     "sha_in_history": true,
     "ref": "refs/heads/main",
     "ref_name": "main",
-    "run_id": "44921084813",
-    "run_url": "https://github.com/addaix/penlike/actions/runs/44921084813",
+    "run_id": "44941026598",
+    "run_url": "https://github.com/addaix/penlike/actions/runs/44941026598",
     "server_url": "https://github.com"
   },
   "tools": {
-    "epythet": "0.2.22",
+    "epythet": "0.2.23",
     "sphinx": "9.1.1",
     "docutils": "0.22.4",
     "python": "3.12.16"
@@ -60,14 +60,16 @@
   },
   "pypi": {
     "checked": true,
-    "latest": "0.0.7",
-    "relation": "same",
+    "latest": "0.0.8",
+    "relation": "behind",
     "error": null
   },
-  "reproduce": "git clone https://github.com/addaix/penlike && cd penlike\ngit checkout 00d0aa98dda66763de3858c82ebb55e874df1b40\npip install \"epythet==0.2.22\"\nepythet quickstart . --ignore tests/ scrap/ examples/",
+  "reproduce": "git clone https://github.com/addaix/penlike && cd penlike\ngit checkout 398407152cb73df98faabfdc0b461fd00bee94af\npip install \"epythet==0.2.23\"\nepythet quickstart . --ignore tests/ scrap/ examples/",
   "warnings": [],
   "alignment": {
-    "aligned": true,
-    "notes": []
+    "aligned": false,
+    "notes": [
+      "The documented version (0.0.7) is behind the latest release on PyPI (0.0.8): `pip install penlike` gives newer code than these docs describe."
+    ]
   }
 }

@@ -2,16 +2,18 @@
 
 # About this build
 
-This documentation was built on **2026-11-21 15:49 UTC** from commit <a href="https://github.com/addaix/penlike/commit/00d0aa98dda66763de3858c82ebb55e874df1b40"><code>00d0aa9</code></a> on branch <code>main</code>, for **penlike 0.0.7** (from <code>pyproject.toml</code>).
+This documentation was built on **2026-11-21 19:29 UTC** from commit <a href="https://github.com/addaix/penlike/commit/398407152cb73df98faabfdc0b461fd00bee94af"><code>3984071</code></a> on branch <code>main</code>, for **penlike 0.0.7** (from <code>pyproject.toml</code>).
 
-#### NOTE
-Nothing suggests a mismatch: the tree was clean at the commit above, and the documented version is the one on PyPI.
+#### WARNING
+The documentation and the package may be misaligned:
+
+- The documented version (0.0.7) is behind the latest release on PyPI (0.0.8): `pip install penlike` gives newer code than these docs describe.
 
 ## Source
 
 |                     |                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Commit              | <a href="https://github.com/addaix/penlike/commit/00d0aa98dda66763de3858c82ebb55e874df1b40"><code>00d0aa98dda66763de3858c82ebb55e874df1b40</code></a> |
+| Commit              | <a href="https://github.com/addaix/penlike/commit/398407152cb73df98faabfdc0b461fd00bee94af"><code>398407152cb73df98faabfdc0b461fd00bee94af</code></a> |
 | Branch              | <code>main</code>                                                                                                                                     |
 | Tags at this commit | none                                                                                                                                                  |
 | Working tree        | clean                                                                                                                                                 |
@@ -22,15 +24,15 @@ Nothing suggests a mismatch: the tree was clean at the commit above, and the doc
 |              |                                                                                            |
 |--------------|--------------------------------------------------------------------------------------------|
 | Repository   | <code>addaix/penlike</code>                                                                |
-| Run          | <a href="https://github.com/addaix/penlike/actions/runs/44921084813">44921084813</a>       |
+| Run          | <a href="https://github.com/addaix/penlike/actions/runs/44941026598">44941026598</a>       |
 | Ref          | <code>refs/heads/main</code>                                                               |
-| Event commit | <code>00d0aa98dda66763de3858c82ebb55e874df1b40</code> (in the history of the built commit) |
+| Event commit | <code>398407152cb73df98faabfdc0b461fd00bee94af</code> (in the history of the built commit) |
 
 ## Tools
 
 |          |         |
 |----------|---------|
-| epythet  | 0.2.22  |
+| epythet  | 0.2.23  |
 | Sphinx   | 9.1.1   |
 | docutils | 0.22.4  |
 | Python   | 3.12.16 |
@@ -49,14 +51,14 @@ Nothing suggests a mismatch: the tree was clean at the commit above, and the doc
 
 ## Package on PyPI
 
-Latest release: <a href="https://pypi.org/project/penlike/0.0.7/">0.0.7</a>, the same as the documented version.
+Latest release: <a href="https://pypi.org/project/penlike/0.0.8/">0.0.8</a>, newer than the documented version (0.0.7).
 
 ## Reproduce
 
 ```bash
 git clone https://github.com/addaix/penlike && cd penlike
-git checkout 00d0aa98dda66763de3858c82ebb55e874df1b40
-pip install "epythet==0.2.22"
+git checkout 398407152cb73df98faabfdc0b461fd00bee94af
+pip install "epythet==0.2.23"
 epythet quickstart . --ignore tests/ scrap/ examples/
 ```
 
