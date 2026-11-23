@@ -84,7 +84,7 @@ def test_shipped_skills_are_well_formed():
     from pathlib import Path
 
     root = Path(str(files("penlike.data"))) / "skills"
-    skills = sorted(p for p in root.iterdir() if (p / "SKILL.md").is_file() and p.name != "x")
+    skills = sorted(p for p in root.iterdir() if (p / "SKILL.md").is_file())
     assert {p.name for p in skills} >= {"penlike", "penlike-model", "penlike-source"}
     verbs = {t.__name__.replace("_", "-") for t in tools.TOOLS}
     for skill in skills:
