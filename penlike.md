@@ -1,4 +1,4 @@
-> built 2026-11-21 19:29 UTC from 3984071 (main) · penlike 0.0.7. Details: build_info.json
+> built 2026-11-23 22:50 UTC from 713228b (main) · penlike 0.0.8. Details: build_info.json
 
 # index.html.md
 
@@ -1790,18 +1790,16 @@ False
 
 # About this build
 
-This documentation was built on **2026-11-21 19:29 UTC** from commit <a href="https://github.com/addaix/penlike/commit/398407152cb73df98faabfdc0b461fd00bee94af"><code>3984071</code></a> on branch <code>main</code>, for **penlike 0.0.7** (from <code>pyproject.toml</code>).
+This documentation was built on **2026-11-23 22:50 UTC** from commit <a href="https://github.com/addaix/penlike/commit/713228b60235f3481cc38626e651d55f4b460edb"><code>713228b</code></a> on branch <code>main</code>, for **penlike 0.0.8** (from <code>pyproject.toml</code>).
 
-#### WARNING
-The documentation and the package may be misaligned:
-
-- The documented version (0.0.7) is behind the latest release on PyPI (0.0.8): `pip install penlike` gives newer code than these docs describe.
+#### NOTE
+Nothing suggests a mismatch: the tree was clean at the commit above, and the documented version is the one on PyPI.
 
 ## Source
 
 |                     |                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Commit              | <a href="https://github.com/addaix/penlike/commit/398407152cb73df98faabfdc0b461fd00bee94af"><code>398407152cb73df98faabfdc0b461fd00bee94af</code></a> |
+| Commit              | <a href="https://github.com/addaix/penlike/commit/713228b60235f3481cc38626e651d55f4b460edb"><code>713228b60235f3481cc38626e651d55f4b460edb</code></a> |
 | Branch              | <code>main</code>                                                                                                                                     |
 | Tags at this commit | none                                                                                                                                                  |
 | Working tree        | clean                                                                                                                                                 |
@@ -1812,15 +1810,15 @@ The documentation and the package may be misaligned:
 |              |                                                                                            |
 |--------------|--------------------------------------------------------------------------------------------|
 | Repository   | <code>addaix/penlike</code>                                                                |
-| Run          | <a href="https://github.com/addaix/penlike/actions/runs/44941026598">44941026598</a>       |
+| Run          | <a href="https://github.com/addaix/penlike/actions/runs/45283126430">45283126430</a>       |
 | Ref          | <code>refs/heads/main</code>                                                               |
-| Event commit | <code>398407152cb73df98faabfdc0b461fd00bee94af</code> (in the history of the built commit) |
+| Event commit | <code>713228b60235f3481cc38626e651d55f4b460edb</code> (in the history of the built commit) |
 
 ## Tools
 
 |          |         |
 |----------|---------|
-| epythet  | 0.2.23  |
+| epythet  | 0.2.25  |
 | Sphinx   | 9.1.1   |
 | docutils | 0.22.4  |
 | Python   | 3.12.16 |
@@ -1839,14 +1837,14 @@ The documentation and the package may be misaligned:
 
 ## Package on PyPI
 
-Latest release: <a href="https://pypi.org/project/penlike/0.0.8/">0.0.8</a>, newer than the documented version (0.0.7).
+Latest release: <a href="https://pypi.org/project/penlike/0.0.8/">0.0.8</a>, the same as the documented version.
 
 ## Reproduce
 
 ```bash
 git clone https://github.com/addaix/penlike && cd penlike
-git checkout 398407152cb73df98faabfdc0b461fd00bee94af
-pip install "epythet==0.2.23"
+git checkout 713228b60235f3481cc38626e651d55f4b460edb
+pip install "epythet==0.2.25"
 epythet quickstart . --ignore tests/ scrap/ examples/
 ```
 
